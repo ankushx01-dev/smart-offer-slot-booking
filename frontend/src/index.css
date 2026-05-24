@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans antialiased;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-zinc-950 text-zinc-200;
+  }
+}
+
+@layer components {
+  .ui-page-title {
+    @apply text-2xl font-bold tracking-tight text-slate-900 dark:text-zinc-50;
+  }
+
+  .ui-card {
+    @apply rounded-xl border border-slate-200 bg-white text-slate-900 shadow-sm
+      dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100;
+  }
+
+  .ui-label {
+    @apply block text-sm font-medium text-slate-700 dark:text-zinc-300;
+  }
+
+  .ui-input {
+    @apply w-full rounded-lg border-slate-300 bg-white text-sm text-slate-900
+      placeholder:text-slate-400
+      focus:border-primary focus:ring-primary
+      dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-100
+      dark:placeholder:text-zinc-500;
+  }
+
+  .ui-table-wrap {
+    @apply overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm
+      dark:border-zinc-800 dark:bg-zinc-900;
+  }
+
+  .ui-table {
+    @apply w-full text-left text-sm text-slate-800 dark:text-zinc-200;
+  }
+
+  .ui-table-head {
+    @apply bg-slate-50 text-slate-600 dark:bg-zinc-800/80 dark:text-zinc-300;
+  }
+
+  .ui-table-row {
+    @apply border-t border-slate-100 dark:border-zinc-800;
+  }
+}

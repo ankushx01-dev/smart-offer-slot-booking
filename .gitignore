@@ -8,7 +8,7 @@ backend/**/*.swp
 backend/**/*.swo
 backend/**/*~
 backend/**/.DS_Store
-
+backend/SmartOfferSlotBooking/docker-data/
 # Frontend
 frontend/node_modules/
 frontend/dist/

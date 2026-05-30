@@ -23,13 +23,6 @@ Businesses can create limited-time offers with booking slots, while customers ca
 
 # Screenshots
 
-## Public Offer Listing
-
-<p align="center">
-  <img src="./screenshots/public-home.png" width="100%" />
-</p>
-
----
 
 ## Browse Offers
 

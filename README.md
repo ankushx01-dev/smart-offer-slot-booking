@@ -282,4 +282,3 @@ smart-offer-slot-booking/
 
 MIT License
 
-Hackathon submission for Willovate Smart Offer Slot Booking System.
